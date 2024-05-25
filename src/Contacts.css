@@ -1,0 +1,114 @@
+/* 
+File: Contacts.css
+Student: CHAN, Oi Yan Irene
+StudentID: 301309424
+Date: May 25, 2024
+*/
+
+.contact{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 80px;
+    margin: 80px 170px;
+}
+
+.contact-title{
+    position: relative;
+}
+
+.contact-title h1{
+    padding: 0px 30px;
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.contact-section{
+    display: flex;
+    gap: 150px;
+}
+
+/*left side of the contact session */
+
+.contact-left{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.contact-left h2{
+    font-size: 24px;
+    font-weight: 600;
+    background: linear-gradient(270deg, orange, red);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.contact-details{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    line-height: 0px;
+    color: darkblue;
+    font-size: 16px;
+}
+
+.contact-detail{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+/*right side of the contact session */
+
+.contact-right{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap:30px;
+}
+
+.contact-right label{
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.contact-right input{
+    border: none;
+    width: 700px;
+    height: 50px;
+    padding-left: 20px;
+    border-radius: 5px;
+    background: lightgrey;
+    font-family: Outfit;
+    font-size: 16px;
+}
+
+.contact-right textarea{
+    width: 650px;
+    border: none;
+    padding: 25px;
+    border-radius: 5px;
+    background: lightgrey;
+    font-family: Outfit;
+    font-size: 16px;
+}
+
+.btnSubmit {
+    border: none;
+    border-radius: 30px;
+    background: lightgrey;
+    font-size: 20px;
+    padding: 10px 50px;
+    margin-bottom: 50px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.btnSubmit:hover {
+    background: linear-gradient(270deg, orange, red);
+    color: white;
+    transition: 0.3s;
+}

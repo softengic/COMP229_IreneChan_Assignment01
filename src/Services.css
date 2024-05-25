@@ -1,0 +1,76 @@
+/* 
+File: Services.css
+Student: CHAN, Oi Yan Irene
+StudentID: 301309424
+Date: May 25, 2024
+*/
+
+.services {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 80px;
+    margin: 80px 170px;
+}
+
+.services-title {
+    position: relative;
+}
+
+.services-title h1 {
+    padding: 0px 30px;
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.services-format {
+    display: flex;
+    flex-direction: column;
+    justify-content: top;
+    gap: 20px;
+    padding: 40px;
+    border-radius: 10px;
+    border: 2px solid black;
+    transition: 0.4s;
+}
+
+.services-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+    margin-bottom: 80px;   
+    width: 60%;
+}
+
+.services-format h2 {
+    background: transparent;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.services-format h3 {
+    font-size: 24px;
+    font-weight: 600;
+    background: linear-gradient(270deg, orange, red);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.services-format p{
+    font-size: 16px;
+    line-height: 20px;
+    background: transparent;
+}
+
+.services-format:hover {
+    background: #00356B;
+    transform: scale(1.05);
+    transition: 0.4s;
+}
+
+.services-format:hover h2,
+.services-format:hover p {
+    color: white;
+}

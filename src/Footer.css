@@ -1,0 +1,22 @@
+/* 
+File: Footer.css
+Student: CHAN, Oi Yan Irene
+StudentID: 301309424
+Date: May 25, 2024
+*/
+
+.footer{
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+    font-size: 14px;
+}
+
+.footer p{
+    text-align: center;
+    padding: 10px;
+    border: none;
+    height: 15px;
+    background: rgb(232, 232, 232);
+    width: 100%;
+}

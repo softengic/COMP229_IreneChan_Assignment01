@@ -1,0 +1,133 @@
+/* 
+File: About.css
+Student: CHAN, Oi Yan Irene
+StudentID: 301309424
+Date: May 25, 2024
+*/
+
+.about {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    gap: 80px;
+    margin: 80px 170px;
+}
+
+.about-title{
+    position: relative;
+}
+
+.about-title h1{
+    padding: 0px 30px;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 600;
+    margin: 0px;
+}
+
+/* About Me section */
+
+.about-sections{
+    display: flex;
+    gap: 80px;
+}
+
+/* About Me - left section which contains photo and download resume button */
+
+.about-left p {
+    text-align: center;
+    font-weight: 600;
+}
+
+.about-left img {
+    margin-top: 0px;
+    width: 300px;
+    height: auto;
+    border-radius: 20px;
+}
+
+/* About Me - right section which contains personal description */
+
+.about-right{
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+}
+
+.about-para{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 30px;
+}
+
+.about-para p{
+    margin: 0px;
+}
+
+/* Skills Proficiency section */
+
+.about-skills{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.about-skills-title {
+    font-style: italic;
+}
+
+.about-skill{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    transition: 0.3s;
+}
+
+.about-skill p {
+    width: 120px;
+    min-width: 120px;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.about-skill hr {
+    margin: 0;
+    margin-right: auto;
+    outline: none;
+    border: none;
+    width: 50%;
+    height: 6px;
+    border-radius: 50px;
+    background: linear-gradient(270deg, orange, red);
+}
+
+/* Download Resume Button */
+
+.about-resume{
+    display: block;
+    margin-top: 30px;
+    text-align: center;
+    padding: 15px;
+    border-radius: 30px;
+    border: 2px solid;
+    cursor: pointer;   
+    background: linear-gradient(270deg, lightyellow, lightblue);
+}
+
+.about-resume a{
+    font-size: 20px;
+    font-weight: 600;
+    text-decoration: none;
+    font-weight: bold;
+    background: transparent;
+}
+
+.about-resume:hover {
+    transform: scale(1.10);
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+    transition: 0.3s;
+}

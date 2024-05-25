@@ -1,0 +1,78 @@
+/* 
+File: Home.css
+Student: CHAN, Oi Yan Irene
+StudentID: 301309424
+Date: May 25, 2024
+*/
+
+.home {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 15px;
+}
+
+/* contains profile pic, brief introduction and mission statement*/
+
+.home img {
+    margin-top: 150px;
+    width: 200px;
+    height: auto;
+    border-radius: 200px;
+}
+
+.home h1{
+    text-align: center;
+    width: 70%;
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 50px;
+}
+
+.home h1 span{
+    background: linear-gradient(270deg, orange, red);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.home p{
+    width: 70%;
+    color: #00356B;
+    text-align: left;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+/* format the "About Me" button */
+
+.home-about{
+    margin-bottom: 30px;
+    padding: 15px 50px;
+    border-radius: 50px;
+    border: 2px solid;
+    cursor: pointer;   
+    background: linear-gradient(270deg, lightyellow, lightblue);    
+}
+
+.home-about a{
+    font-size: 20px;
+    font-weight: 600;
+    color: #00356B;
+    text-decoration: none;
+    font-weight: bold;
+    background: transparent;
+}
+
+.home-about:hover {
+    transform: scale(1.10);
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+    transition: 0.3s;
+}
+
+
+.about-resume:hover {
+    transform: scale(1.10);
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+    transition: 0.3s;
+}

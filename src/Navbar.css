@@ -1,0 +1,44 @@
+/* 
+File: Navbar.css
+Student: CHAN, Oi Yan Irene
+StudentID: 301309424
+Date: May 25, 2024
+*/
+
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar{
+    display: grid;
+    grid-template-columns: 0.5fr 2fr;
+    align-items: center;
+    margin: 20px;
+}
+
+.navMenu{   
+    display: flex;
+    align-items: center;
+    width: 70%;
+    justify-content: space-evenly;
+    list-style-type: none;
+}
+
+.navbar a{
+    color: #00356B;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.navbar a:hover{
+    color: orangered;
+    text-decoration: none;
+    font-weight: bold;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.4);
+    transition: 0.3s;
+}
+.navbar img{
+    height: 5vh;
+    display: flex;
+}
+
